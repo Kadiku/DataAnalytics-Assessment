@@ -26,7 +26,7 @@ Correctly accounting for deductions to avoid inflated deposit totals.
 
 Properly aligning transaction status filtering for accurate results.
 
-Question 2. Average Transactions per Customer per Month
+## Question 2. Average Transactions per Customer per Month
 
 Approach:
 
@@ -48,7 +48,7 @@ Properly aligning transaction counts to customer active periods.
 
 Ensuring consistent categorization across customer groups.
 
-Question 3. Inactive Accounts in the Last Year
+## Question 3. Inactive Accounts in the Last Year
 
 Approach:
 
@@ -70,7 +70,7 @@ Correctly calculating inactivity days to avoid false positives.
 
 Efficiently joining across multiple account types.
 
-Question 4. Estimated CLV Calculation
+## Question 4. Estimated CLV Calculation
 
 Approach:
 
@@ -92,7 +92,7 @@ Avoiding division by zero for new accounts.
 
 Properly converting kobo to naira for accurate profit calculations.
 
-Conclusion
+## Conclusion
 
 This assessment covered a range of SQL skills including CTEs, complex joins, aggregation, and data filtering. The main challenges involved managing null values, division by zero, and accurately grouping data to avoid double counting or miscategorization.
 
