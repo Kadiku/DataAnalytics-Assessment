@@ -16,7 +16,7 @@ Question 1. Customers with Funded Savings and Investment Plans
 3. Sorting and Presentation:
 •	I sorted the results by total_deposits in descending order to prioritize users with the highest total contributions.
 •	Used ROUND() to ensure consistent formatting of the total deposits with two decimal places, aligning with the output specification.
-________________________________________
+
 Challenges:
 1. Handling Missing Columns:
 •	Initially, I was unable to find a 'amount_withdrawn' column.
@@ -27,7 +27,7 @@ Challenges:
 3. Joining Logic:
 •	Using INNER JOINs was critical for filtering out unfunded users, but this also meant potentially excluding users with incomplete data.
 •	This was a deliberate trade-off to meet the "at least one funded plan" requirement.
-
+________________________________________
 Question 2 Average Transactions per Customer per Month
 1.	Aggregating Transaction Data:
 o	Calculated the total number of confirmed transactions per customer from the savings transactions table.
@@ -45,7 +45,7 @@ o	Grouped customers into three categories based on their average monthly transac
 o	Ensured consistent categorization by applying the same case logic in grouping.
 5.	Ordering Results:
 o	Used a custom ordering function (FIELD) to display categories in the desired priority order (High → Medium → Low) rather than alphabetical order.
-________________________________________
+
 Challenges Encountered and Resolutions
 1.	Handling Timestamp with Time Component:
 o	The transaction dates included timestamps, which initially caused inaccurate month calculations.
