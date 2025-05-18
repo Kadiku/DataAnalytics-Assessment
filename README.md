@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the Cowrywise SQL technical assessment. Below is a breakdown of my approach for each question, along with the challenges encountered and how I resolved them.
 
-Question 1. Customers with Funded Savings and Investment Plans
+## Question 1. Customers with Funded Savings and Investment Plans
 
 Approach:
 
